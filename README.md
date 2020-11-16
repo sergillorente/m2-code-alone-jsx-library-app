@@ -162,19 +162,19 @@ After finishing with the above steps, your project structure should look like th
  ┃
  ┣ 📂models/
  ┃
- ┣  📂public
- ┃ 	┣ 📂images
- ┃ 	┣ 📂javascripts
+ ┣ 📂public
+ ┃ ┣ 📂images
+ ┃ ┣ 📂javascripts
  ┃ 	┗ 📂stylesheets
  ┃ 	  ┗ 📜style.css
  ┃
- ┣ 	📂routes
- ┃ 	┣ 📜index.js
- ┃ 	┗ 📜users.js
+ ┣ 📂routes
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜users.js
  ┃
- ┣ 	📂views
- ┃ 	┣ 📜Home.jsx
- ┃ 	┗ 📜Layout.jsx
+ ┣ 📂views
+ ┃ ┣ 📜Home.jsx
+ ┃ ┗ 📜Layout.jsx
  ┃
  ┣ 📜app.js
  ┗ 📜package.json
