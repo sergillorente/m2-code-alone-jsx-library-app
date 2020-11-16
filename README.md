@@ -2,6 +2,14 @@
 
 
 
+## Finished Example
+
+
+
+#### [Code Example - GitHub repo](https://github.com/ross-u/m2-library-app-example-done)
+
+
+
 ## Learning Goal
 
 The purpose of this mini project is building a server-side rendered app from scratch. 
