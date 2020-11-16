@@ -7,10 +7,10 @@ const logger = require('morgan');
 
 const booksRouter = require('./routes/booksRouter');
 
-const app = express();
-
 const mongoose = require('mongoose');
 const erv = require('express-react-views');
+
+const app = express();
 
 const DB_NAME = 'library';
 
