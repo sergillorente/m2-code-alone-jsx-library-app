@@ -166,7 +166,7 @@ After finishing with the above steps, your project structure should look like th
  ┃ ┣ 📂images
  ┃ ┣ 📂javascripts
  ┃ ┗ 📂stylesheets
- ┃ 	 ┗ 📜style.css
+ ┃   ┗ 📜style.css
  ┃
  ┣ 📂routes
  ┃ ┣ 📜index.js
