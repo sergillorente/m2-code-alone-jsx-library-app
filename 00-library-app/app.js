@@ -12,7 +12,7 @@ const app = express();
 const mongoose = require('mongoose');
 const erv = require('express-react-views');
 
-const DB_NAME = library;
+const DB_NAME = 'library';
 
 // DB CONNECTION
 
@@ -47,12 +47,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use.apply('/books', booksRouter);
+app.use('/books', booksRouter);
 
 // ROUTES
 
-app.get('/', (req, res, next) => {
-    res.render('Home');
-})
+app.get("/", (req, res, next) => {
+    res.render("Home");
+});
 
 module.exports = app;
